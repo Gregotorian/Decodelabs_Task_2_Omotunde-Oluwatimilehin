@@ -8,6 +8,12 @@ The primary goal of this project is to improve data quality and create a structu
 Objectives
 The objective of this project is to perform EDA(Explorative Data Analysis) to uncover hidden patterns, trends, and outliers within a dataset. Transforming raw data into actionable insights through analytical logic rather than simple reporting.
 
+Business Questions to be answered:
+
+Which year does the company YoY revenue yields highest return?
+What causes customers to cancel and return their products?
+What are the factors that leads to the low purchase rate?
+
 Key Observations when performing the EDA:
 
 Revenue declining YoY - 2023 ($553K) → 2024 ($480K) → 2025 ($232K YTD)
