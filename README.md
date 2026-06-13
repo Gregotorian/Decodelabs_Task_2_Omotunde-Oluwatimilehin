@@ -6,80 +6,16 @@ This project focuses on cleaning, organizing, and preparing e-commerce transacti
 The primary goal of this project is to improve data quality and create a structured dataset suitable for business analysis and decision-making.
 
 Objectives
-Clean and standardize raw transactional data
-Identify and handle missing or inconsistent values
-Prepare the dataset for analysis and visualization
-Improve data reliability for reporting purposes
-Generate a cleaned dataset for future analytical tasks
-Dataset Information
+The objective of this project is to perform EDA(Explorative Data Analysis) to uncover hidden patterns, trends, and outliers within a dataset. Transforming raw data into actionable insights through analytical logic rather than simple reporting.
 
-The dataset includes the following key fields:
+Key Observations when performing the EDA:
 
-Order ID
-Date
-Customer ID
-Product
-Quantity
-Unit Price
-Shipping Address
-Payment Method
-Order Status
-Tracking Number
-Items in Cart
-Coupon Code
-Referral Source
-Total Price
-Project Files
-Dataset for Data Analytics (PROJECT 1).xlsx
-│
-├── Sheet1
-├── Cleaned_Data
-└── Cleaning_Summary
-File Description
-Sheet1 → Original/raw dataset
-Cleaned_Data → Processed and cleaned dataset
-Cleaning_Summary → Summary of cleaning steps performed
-Data Cleaning Process
+Revenue declining YoY - 2023 ($553K) → 2024 ($480K) → 2025 ($232K YTD)
+41% of orders are Cancelled (250) or Returned (247) - needs investigation
+Products evenly spread; Printer leads (181), Phone trails (156)
+99% unique customers (1,189/1,200) = very low repeat purchase rate
+Instagram (259) & Email (250) are best referral sources
 
-The following data cleaning steps were performed:
-
-Removed duplicate records
-Standardized column formatting
-Corrected inconsistent values
-Checked for missing data
-Validated numerical fields
-Organized transactional records for analysis
-Tools Used
-Microsoft Excel
-Data Cleaning Techniques
-Basic Data Validation
-Analytical Thinking
-Business Value
-
-This project demonstrates how raw business data can be transformed into a reliable and analysis-ready dataset. Clean data improves:
-
-Reporting accuracy
-Business intelligence
-Operational decision-making
-Customer insights
-Financial analysis
-Skills Demonstrated
-Data Cleaning
-Data Validation
-Spreadsheet Analysis
-Problem Solving
-Data Organization
-Business Analysis
-Future Improvements
-
-Possible next steps for this project:
-
-Create dashboards using Power BI or Tableau
-Perform exploratory data analysis (EDA)
-Generate sales performance insights
-Build customer segmentation analysis
-Automate cleaning using Python or SQL
-Author
 
 Omotunde Oluwatimilehin Gregory
 
